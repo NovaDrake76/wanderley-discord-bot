@@ -6,8 +6,6 @@
   },
   "deploy": {
     "startCommand": "py index.py",
-    "healthcheckPath": "/",
-    "healthcheckTimeout": 100,
     "restartPolicyType": "never"
   }
 }
